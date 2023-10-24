@@ -25,8 +25,10 @@ if (*head == NULL)
 }
 
 while (xxx->next)
+{
 	xxx = xxx->next;
-	xxx->next = again;
+}
+xxx->next = again;
 	return (again);
 }
 
